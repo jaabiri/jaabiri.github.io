@@ -74,7 +74,7 @@ $(function () {
 
         var location = encodeURIComponent(inputsearch.val());
 
-        var urlPrefix = 'http://api.openweathermap.org/data/2.5/forecast?q=';
+        var urlPrefix = '//api.openweathermap.org/data/2.5/forecast?q=';
         var urlSuffix = '&APPID=a4da4aea209d0977a955ead3516b9c1f&units=metric';
         var url = urlPrefix + location + urlSuffix;
 
