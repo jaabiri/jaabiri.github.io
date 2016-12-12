@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>meteo</title>
   <link rel="stylesheet" href="css/owfont-regular.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/app.css">
 
@@ -16,28 +19,35 @@
 <body>
   
   <div class="container-fluid">
-<div class="wrapr">
-  <span class=" city font-size-50 white"></span>
-
-
-    <form id="search" action="">
+ 
+    
+<div class="wrapheader">
+    <div class="menu"></div>
+    <form id="search" action=""> 
+     
       <input class="search" placeholder="location" type="text" >
+       <span id="iconsearch"class="icon "><i class="fa fa-search fa-2x" aria-hidden="true"></i></span>
     </form>
 </div>
+   <div id ="app"class="row no-space">
    
-    <div class="wrap">
-      <div id ="app"class="row no-space">
-     
 
-        <div class="col-md-9 col-sm-8 fullparent">
-          <div id="app2" class="row no-space text-center">
-            
 
-          </div>
-        </div>
       </div>
+       <div class="wrap">
+    <div class="row"id="app2">
+      
+      
+      
+   </div> 
+     
     </div>
-
+  <div class="sidebar">
+      <div class="menu"></div>
+       <nav class="">
+          
+      </nav>
+  </div>
   </div>
 
   <script src="js/jquery.js"></script>
