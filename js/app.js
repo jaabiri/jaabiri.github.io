@@ -64,7 +64,7 @@ $( document ).ready(function() {
 
     function convertDate(data) {
         var d = new Date(data * 1000);
-
+               console.log(d)
         return dayfrom(d.getDay());
 
     }
